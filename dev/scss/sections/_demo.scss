@@ -1,0 +1,42 @@
+/* =============
+    Demo
+============= */
+
+    
+.container{
+    display: grid;
+    grid-template-columns: auto 50px auto 50px auto 50px auto;
+    grid-template-areas: ". blueball . redball . yellowball .";
+
+    .blue-ball{   
+        grid-area: blueball; 
+        height: 100px;
+        width: 100px;
+        background-color: $blue;
+        border-radius: 50%;
+    }
+
+    .red-ball{
+        grid-area: redball; 
+        height: 100px;
+        width: 100px;
+        background-color: $red;
+        border-radius: 50%;
+    }
+    
+
+    .yellow-ball{
+        grid-area: yellowball; 
+        height: 100px;
+        width: 100px;
+        background-color: $yellow;
+        border-radius: 50%;
+    }
+}
+    
+
+        
+   
+    
+    
+
