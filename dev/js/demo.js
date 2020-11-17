@@ -4,31 +4,37 @@ import {gsap} from "gsap";
 /* -----------------
     Demo Script
 ----------------- */
+var logobody = gsap.timeline();
 
-var Speed = 2;
+logobody.to("#body")
 
-var demoTimeline = gsap.timeline();
 
-demoTimeline.to(".blue-ball",
-{duration: Speed, 
-    width: 150, 
-    repeat: 100, 
-    y: 200,
-    yoyo: true
-    })
+// var Speed = 2;
 
-    .to(".red-ball",
-{duration: Speed, 
-    width: 150, 
-    repeat: 100, 
-    y: 200,
-    yoyo: true 
-    })
+// var demoTimeline = gsap.timeline();
 
-    .to(".yellow-ball",
-{duration: Speed, 
-    width: 150, 
-    repeat: 100,
-    y: 200, 
-    yoyo: true
-    })
+// demoTimeline.to(".blue-ball",
+// {duration: Speed, 
+//     width: 150, 
+//     repeat: 100, 
+//     y: 200,
+//     yoyo: true
+//     })
+
+//     .to(".red-ball",
+// {duration: Speed, 
+//     width: 150, 
+//     repeat: 100, 
+//     y: 200,
+//     yoyo: true 
+//     })
+
+//     .to(".yellow-ball",
+// {duration: Speed, 
+//     width: 150, 
+//     repeat: 100,
+//     y: 200, 
+//     yoyo: true
+//     })
+
+console.log
