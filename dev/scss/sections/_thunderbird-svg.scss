@@ -1,0 +1,32 @@
+/* =============
+    Demo
+============= */
+
+    
+#container{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas: ". content .";
+    height: 100%;
+
+    
+    >svg{
+        grid-area: content;
+        width: 100%;
+
+        #dashboard{
+            visibility: none;
+        }
+    }
+
+    
+
+    
+}
+    
+
+        
+   
+    
+    
+

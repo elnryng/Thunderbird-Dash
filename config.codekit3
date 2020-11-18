@@ -38,12 +38,28 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/tbirdlogo.kit": {
+	"/dev/content/dashboard/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/tbirdlogo.html",
+		"oAP": "/dev/content/dashboard/dashboard.html",
+		"oF": 0
+		},
+	"/dev/content/logo/logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/logo/logo.html",
+		"oF": 0
+		},
+	"/dev/content/thunderbird-svg.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/thunderbird-svg.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -70,24 +86,24 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/blueBall.js": {
+	"/dev/js/logo/logo.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/blueBall-min.js",
-		"oF": 1,
+		"oAP": "/dev/js/logo/logo-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/demo.js": {
+	"/dev/js/logo/logoText.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/demo-min.js",
+		"oA": 0,
+		"oAP": "/dev/js/logo/logoText-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -233,7 +249,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_demo.scss": {
+	"/dev/scss/sections/_dashboard.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -241,7 +257,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
+		"oAP": "/dev/scss/sections/_dashboard.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_logo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_thunderbird-svg.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_thunderbird-svg.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -4,9 +4,19 @@ import {gsap} from "gsap";
 /* -----------------
     Demo Script
 ----------------- */
-var logobody = gsap.timeline();
 
-logobody.to("#body")
+export function logobodyAnimation() {
+    const logobody = gsap.timeline();
+    logobody.from("#ThunderbirdLogo", {y: 1000, duration: 3}
+    );
+
+
+
+return logobody
+}
+
+
+// logobody.to("#body")
 
 
 // var Speed = 2;
@@ -37,4 +47,4 @@ logobody.to("#body")
 //     yoyo: true
 //     })
 
-console.log
+// console.log

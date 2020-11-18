@@ -338,6 +338,9 @@ ul {
   .container-grid > div {
     grid-area: grid-content; }
 
+.hidden {
+  visibility: hidden; }
+
 /* =============
     Typography
 ============= */
@@ -376,28 +379,19 @@ textarea {
 /* =============
     Footer
 ============= */
+#dashboard-container {
+  visibility: hidden; }
+
 /* =============
     Demo
 ============= */
-.container {
+#container {
   display: grid;
-  grid-template-columns: auto 50px auto 50px auto 50px auto;
-  grid-template-areas: ". blueball . redball . yellowball ."; }
-  .container .blue-ball {
-    grid-area: blueball;
-    height: 100px;
-    width: 100px;
-    background-color: #0E79B2;
-    border-radius: 50%; }
-  .container .red-ball {
-    grid-area: redball;
-    height: 100px;
-    width: 100px;
-    background-color: #f13232;
-    border-radius: 50%; }
-  .container .yellow-ball {
-    grid-area: yellowball;
-    height: 100px;
-    width: 100px;
-    background-color: #E2C044;
-    border-radius: 50%; }
+  grid-template-columns: 200px auto 200px;
+  grid-template-areas: ". content .";
+  height: 100%; }
+  #container > svg {
+    grid-area: content;
+    width: 100%; }
+    #container > svg #dashboard {
+      visibility: none; }

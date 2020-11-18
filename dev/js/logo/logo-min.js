@@ -1,0 +1,1 @@
+import{gsap}from"gsap";export function logobodyAnimation(){const o=gsap.timeline();return o.from("#ThunderbirdLogo",{y:1e3}),o}
