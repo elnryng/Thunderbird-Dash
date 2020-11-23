@@ -46,6 +46,22 @@
 		"oAP": "/dev/content/dashboard/dashboard.html",
 		"oF": 0
 		},
+	"/dev/content/dashboard/fuelgauge.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/fuelgauge.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/speedometer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/speedometer.html",
+		"oF": 0
+		},
 	"/dev/content/logo/logo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -85,6 +101,28 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/dashboard/fuelgauge.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/fuelgauge-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dashboard/speedometer.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/speedometer-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/logo/logo.js": {
 		"bF": 0,
@@ -350,7 +388,7 @@
 "projectAttributes": {
 	"creationDate": 622561353.46572006,
 	"displayValue": "Thunderbird-Dash",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},

@@ -379,19 +379,26 @@ textarea {
 /* =============
     Footer
 ============= */
+#logo {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-areas: ". content ."; }
+  #logo #ThunderbirdLogo {
+    grid-area: content; }
+
 #dashboard-container {
   visibility: hidden; }
 
 /* =============
     Demo
 ============= */
-#container {
+.container {
   display: grid;
   grid-template-columns: 200px auto 200px;
   grid-template-areas: ". content .";
   height: 100%; }
-  #container > svg {
+  .container > svg {
     grid-area: content;
     width: 100%; }
-    #container > svg #dashboard {
+    .container > svg #dashboard {
       visibility: none; }
