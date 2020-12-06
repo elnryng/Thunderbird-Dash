@@ -9,6 +9,7 @@ gsap.registerPlugin(DrawSVGPlugin);
 export function logobodyAnimation() {
     const logobody = gsap.timeline();
     logobody.from("#ThunderbirdLogo", {y: 1000, duration: 2})
+            .from(".wingLines", {drawSVG: "50% 50%", duration: 1})
             .from("#bgShape", {alpha: 0})
             .from("#TStem", {drawSVG: "0%", duration: 1}, "t")
             .from("#TCrossbar", {drawSVG: "0%", duration: 1}, "t")

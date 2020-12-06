@@ -38,6 +38,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/dashboard/clock.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/clock.html",
+		"oF": 0
+		},
 	"/dev/content/dashboard/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -52,6 +60,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/dashboard/fuelgauge.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/gauges.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/gauges.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/radio.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/radio.html",
 		"oF": 0
 		},
 	"/dev/content/dashboard/speedometer.kit": {
@@ -102,6 +126,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/dashboard/clock.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/clock-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/dashboard/fuelgauge.js": {
 		"bF": 0,
 		"ft": 64,
@@ -109,6 +144,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/dashboard/fuelgauge-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dashboard/gauges.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/gauges-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dashboard/radio.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/radio-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -14,8 +14,10 @@ export function speedometerAnimation() {
     var Cont={val:0} , NewVal = 65;
     const speedometer = gsap.timeline();
     speedometer.from("#speedometerOutline", {drawSVG: "0%", duration: 2},"first")
+                .from("#speedometerWhiteOutline", {alpha:0})
                 .from("#speedometerFill", {drawSVG: "0%", duration: 3, ease: "power4.out"},"second")
                 .from("#speedval", {alpha: 0}, "first")
+                .from("#mph", {alpha: 0},"first")
                 .to(Cont,3,{val:NewVal,roundProps:"val",onUpdate:function(){
 
         document.getElementById("speedval").innerHTML=Cont.val
